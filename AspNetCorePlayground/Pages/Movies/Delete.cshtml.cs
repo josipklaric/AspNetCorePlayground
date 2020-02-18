@@ -12,9 +12,9 @@ namespace AspNetCorePlayground
 {
     public class DeleteModel : PageModel
     {
-        private readonly AspNetCorePlayground.Data.moviesContext _context;
+        private readonly MoviesContext _context;
 
-        public DeleteModel(AspNetCorePlayground.Data.moviesContext context)
+        public DeleteModel(MoviesContext context)
         {
             _context = context;
         }

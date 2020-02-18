@@ -7,13 +7,13 @@ using AspNetCorePlayground.Models;
 
 namespace AspNetCorePlayground.Data
 {
-    public class moviesContext : DbContext
+    public class MoviesContext : DbContext
     {
-        public moviesContext (DbContextOptions<moviesContext> options)
+        public MoviesContext (DbContextOptions<MoviesContext> options)
             : base(options)
         {
         }
 
-        public DbSet<AspNetCorePlayground.Models.Movie> Movie { get; set; }
+        public DbSet<Movie> Movie { get; set; }
     }
 }

@@ -27,8 +27,7 @@ namespace AspNetCorePlayground
         {
             services.AddRazorPages();
 
-            services.AddDbContext<moviesContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("moviesContext")));
+            services.AddDbContext<MoviesContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MoviesContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

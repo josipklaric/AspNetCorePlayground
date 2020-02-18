@@ -13,9 +13,9 @@ namespace AspNetCorePlayground
 {
     public class EditModel : PageModel
     {
-        private readonly AspNetCorePlayground.Data.moviesContext _context;
+        private readonly MoviesContext _context;
 
-        public EditModel(AspNetCorePlayground.Data.moviesContext context)
+        public EditModel(MoviesContext context)
         {
             _context = context;
         }

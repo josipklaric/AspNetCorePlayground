@@ -12,9 +12,9 @@ namespace AspNetCorePlayground
 {
     public class CreateModel : PageModel
     {
-        private readonly AspNetCorePlayground.Data.moviesContext _context;
+        private readonly MoviesContext _context;
 
-        public CreateModel(AspNetCorePlayground.Data.moviesContext context)
+        public CreateModel(MoviesContext context)
         {
             _context = context;
         }

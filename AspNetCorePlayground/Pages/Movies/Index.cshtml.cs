@@ -12,9 +12,9 @@ namespace AspNetCorePlayground
 {
     public class IndexModel : PageModel
     {
-        private readonly AspNetCorePlayground.Data.moviesContext _context;
+        private readonly MoviesContext _context;
 
-        public IndexModel(AspNetCorePlayground.Data.moviesContext context)
+        public IndexModel(MoviesContext context)
         {
             _context = context;
         }
